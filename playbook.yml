@@ -32,7 +32,7 @@
 
     - name: Make sure that docker was started and enabled
       service:
-        name: "docker"
+        name: docker
         state: started
         enabled: yes
 
