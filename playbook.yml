@@ -4,6 +4,7 @@
   vars:
     db_volume: mariadb
     wordpress: wordpress
+    ansible_python_interpreter=/usr/bin/python3
 
   tasks:
     - name: Install aptitude using apt
